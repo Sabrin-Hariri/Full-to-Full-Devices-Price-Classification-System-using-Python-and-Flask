@@ -1,0 +1,24 @@
+{
+    "data_columns": {
+        "battery_power": 0,
+        "blue": 0,
+        "clock_speed": 0,
+        "dual_sim": 0,
+        "fc": 0,
+        "four_g": 0,
+        "int_memory": 0,
+        "m_dep": 0,
+        "mobile_wt": 0,
+        "n_cores": 0,
+        "pc": 0,
+        "px_height": 0,
+        "px_width": 0,
+        "ram": 0,
+        "sc_h": 0,
+        "sc_w": 0,
+        "talk_time": 0,
+        "three_g": 0,
+        "touch_screen": 0,
+        "wifi": 0
+    }
+}
