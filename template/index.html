@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Device Price Prediction</title>
+    
 </head>
 <body>
     <div class="container">
+
+
         <h1>Device Price Prediction</h1>
         <img src="static/image/image-1.png" alt="Mobile Device" class="mobile-image">
 
@@ -16,25 +19,25 @@
             <input type="text" name="battery_power" required>
             <p>Enter the total energy a battery can store in one time (measured in milliampere-hours).</p>
 
-            <label for="blue">Bluetooth (0 = No, 1 = Yes):</label>
+            <label for="blue">Bluetooth  (true,false):</label>
             <input type="text" name="blue" required>
-            <p>Indicate whether the device has Bluetooth support (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device has Bluetooth support  (true,false).</p>
 
             <label for="clock_speed">Clock Speed (GHz):</label>
             <input type="text" name="clock_speed" required>
             <p>Specify the speed at which the microprocessor executes instructions (in GHz).</p>
 
-            <label for="dual_sim">Dual SIM (0 = No, 1 = Yes):</label>
+            <label for="dual_sim">Dual SIM  (true,false):</label>
             <input type="text" name="dual_sim" required>
-            <p>Indicate whether the device supports dual SIM cards (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device supports dual SIM cards.</p>
 
             <label for="fc">Front Camera (MP):</label>
             <input type="text" name="fc" required>
             <p>Enter the resolution of the front camera (measured in megapixels).</p>
 
-            <label for="four_g">4G Support (0 = No, 1 = Yes):</label>
+            <label for="four_g">4G Support  (true,false):</label>
             <input type="text" name="four_g" required>
-            <p>Indicate whether the device supports 4G connectivity (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device supports 4G connectivity.</p>
 
             <label for="int_memory">Internal Memory (GB):</label>
             <input type="text" name="int_memory" required>
@@ -80,21 +83,20 @@
             <input type="text" name="talk_time" required>
             <p>Enter the longest time that a single battery charge will last when you are talking (in hours).</p>
 
-            <label for="three_g">3G Support (0 = No, 1 = Yes):</label>
+            <label for="three_g">3G Support  (true,false):</label>
             <input type="text" name="three_g" required>
-            <p>Indicate whether the device supports 3G connectivity (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device supports 3G connectivity.</p>
 
-            <label for="touch_screen">Touch Screen (0 = No, 1 = Yes):</label>
+            <label for="touch_screen">Touch Screen  (true,false):</label>
             <input type="text" name="touch_screen" required>
-            <p>Indicate whether the device has a touch screen (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device has a touch screen.</p>
 
-            <label for="wifi">WiFi Support (0 = No, 1 = Yes):</label>
+            <label for="wifi">WiFi Support (true,false):</label>
             <input type="text" name="wifi" required>
-            <p>Indicate whether the device has WiFi support (0 for No, 1 for Yes).</p>
+            <p>Indicate whether the device has WiFi support.</p>
 
             <input type="submit" value="Predict Price">
         </form>
     </div>
 </body>
 </html>
-
